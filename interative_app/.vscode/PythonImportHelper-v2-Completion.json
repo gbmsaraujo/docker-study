@@ -1,0 +1,28 @@
+[
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "min_number",
+        "kind": 5,
+        "importPath": "rng",
+        "description": "rng",
+        "peekOfCode": "min_number = int(input(\"Please enter the min number: \"))\nmax_number = int(input(\"Please enter the max number: \"))\nif max_number < min_number:\n    print(\"Invalid input - shutting down...\")\nelse:\n    rnd_number = randint(min_number, max_number)\n    print(rnd_number)",
+        "detail": "rng",
+        "documentation": {}
+    },
+    {
+        "label": "max_number",
+        "kind": 5,
+        "importPath": "rng",
+        "description": "rng",
+        "peekOfCode": "max_number = int(input(\"Please enter the max number: \"))\nif max_number < min_number:\n    print(\"Invalid input - shutting down...\")\nelse:\n    rnd_number = randint(min_number, max_number)\n    print(rnd_number)",
+        "detail": "rng",
+        "documentation": {}
+    }
+]

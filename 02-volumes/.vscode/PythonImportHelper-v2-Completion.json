@@ -1,0 +1,104 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "generate_files_app.src.main",
+        "description": "generate_files_app.src.main",
+        "peekOfCode": "def hello():\n    return render_template(\"home.html\")\n@app.route(\"/create\", methods=[\"GET\", \"POST\"])\ndef create():\n    if request.method == \"GET\":\n        return redirect(url_for('hello'))\n    title = request.form[\"title\"]\n    text = request.form[\"text\"]\n    temp_path = os.path.join(os.path.abspath(\"./src/temp\"), f\"{title.lower()}.txt\")\n    final_path = os.path.join(os.path.abspath(\"./src/feedback\"), f\"{title.lower()}.txt\")",
+        "detail": "generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "generate_files_app.src.main",
+        "description": "generate_files_app.src.main",
+        "peekOfCode": "def create():\n    if request.method == \"GET\":\n        return redirect(url_for('hello'))\n    title = request.form[\"title\"]\n    text = request.form[\"text\"]\n    temp_path = os.path.join(os.path.abspath(\"./src/temp\"), f\"{title.lower()}.txt\")\n    final_path = os.path.join(os.path.abspath(\"./src/feedback\"), f\"{title.lower()}.txt\")\n    with open(temp_path, \"w\") as temp_file:\n        temp_file.write(text)\n    if os.path.exists(final_path):",
+        "detail": "generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "feedback",
+        "kind": 2,
+        "importPath": "generate_files_app.src.main",
+        "description": "generate_files_app.src.main",
+        "peekOfCode": "def feedback(name:str):\n    if not os.path.exists(f\"./src/feedback/{name}.txt\"):\n        return \"Arquivo não existe\"\n    with open(f\"./src/feedback/{name}.txt\", \"r\") as file:\n        return file.read()",
+        "detail": "generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "generate_files_app.src.main",
+        "description": "generate_files_app.src.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\")\ndef hello():\n    return render_template(\"home.html\")\n@app.route(\"/create\", methods=[\"GET\", \"POST\"])\ndef create():\n    if request.method == \"GET\":\n        return redirect(url_for('hello'))\n    title = request.form[\"title\"]\n    text = request.form[\"text\"]",
+        "detail": "generate_files_app.src.main",
+        "documentation": {}
+    }
+]

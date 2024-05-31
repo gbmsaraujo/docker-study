@@ -1,0 +1,82 @@
+[
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "def home():\n    return \"Hello World\"\n@app.route(\"/movies\", methods=[\"GET\"])\ndef get_movies():\n    try:\n        response = requests.get(\"https://swapi.dev/api/films\")\n        return json.loads(response.content.decode())\n    except Exception as e:\n        print(e)\n@app.route(\"/people\", methods=[\"GET\"])",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "get_movies",
+        "kind": 2,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "def get_movies():\n    try:\n        response = requests.get(\"https://swapi.dev/api/films\")\n        return json.loads(response.content.decode())\n    except Exception as e:\n        print(e)\n@app.route(\"/people\", methods=[\"GET\"])\ndef get_people():\n    try:\n        response = requests.get(\"https://swapi.dev/api/people\")",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "get_people",
+        "kind": 2,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "def get_people():\n    try:\n        response = requests.get(\"https://swapi.dev/api/people\")\n        return json.loads(response.content.decode())\n    except Exception as e:\n        print(e)\n@app.route(\"/db\", methods=[\"GET\"])\ndef get_db():\n    try:\n        cnx = mysql.connector.connect(",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "def get_db():\n    try:\n        cnx = mysql.connector.connect(\n            user=\"root\", database=\"movies\", password=\"root\", host=\"mysql_db\"\n        )\n        with cnx.cursor() as cursor:\n            result = cursor.execute(\"SELECT * FROM favorite\")\n            rows = [\n                dict(zip([\"id\", \"gender\", \"movie\", \"url\"], row))\n                for row in cursor.fetchall()",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\", methods=[\"GET\"])\ndef home():\n    return \"Hello World\"\n@app.route(\"/movies\", methods=[\"GET\"])\ndef get_movies():\n    try:\n        response = requests.get(\"https://swapi.dev/api/films\")\n        return json.loads(response.content.decode())\n    except Exception as e:",
+        "detail": "run",
+        "documentation": {}
+    }
+]

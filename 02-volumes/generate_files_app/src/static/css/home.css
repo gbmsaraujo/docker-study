@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.c-header {
+  background-color: rgb(93, 0, 180);
+  padding: 4px;
+}
+
+.c-header h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.c-feedback {
+  margin: 40px auto;
+  width: 400px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px gray;
+  padding: 4px;
+}
+
+.c-feedback h1 {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field label {
+  font-weight: 700;
+}
+
+.form-field button {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(93, 0, 180);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Docker Aplicação</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <main>
+        <section>
+            {% if name %}
+            <h1>Olá, </h1>
+            <p>Me Chamo <strong>{{name}}</strong></p> 
+            {% else %}
+            <h1>Hello, World!</h1>
+            {% endif %}
+        </section>
+
+        <form action="/send-name" method="post">
+            <input type="text" id="input-name" name="input-name">
+            <button name="sendBtn" type="submit">Enviar Nome</button>
+        </form>
+    </main>
+</body>
+</html>

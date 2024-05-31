@@ -1,0 +1,201 @@
+[
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "importPath": "data.config.db_config",
+        "description": "data.config.db_config",
+        "isExtraImport": true,
+        "detail": "data.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "kind": 6,
+        "importPath": "backend.src.data.config.db_config",
+        "description": "backend.src.data.config.db_config",
+        "peekOfCode": "class DatabaseConfig(object):\n    def __set_config(self):\n        try:\n            client = MongoClient(\n                \"mongodb://mongodb:27017/goals_db\"\n            )\n            print(\"Conectado ao Mongo\")\n            return client[\"goals_db\"]\n        except Exception as e:\n            print(e)",
+        "detail": "backend.src.data.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseFactory",
+        "kind": 6,
+        "importPath": "backend.src.data.interface.db_factory",
+        "description": "backend.src.data.interface.db_factory",
+        "peekOfCode": "class DatabaseFactory(ABC):\n    @abstractmethod\n    def initilize(self):\n        pass\n    @abstractmethod\n    def insert_one(self, collection: str, data: object):\n        pass\n    @abstractmethod\n    def insert_many(self, collection: str, data: list):\n        pass",
+        "detail": "backend.src.data.interface.db_factory",
+        "documentation": {}
+    },
+    {
+        "label": "log_request_info",
+        "kind": 2,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "def log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "def home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")\n        ]\n        log_request_info(\n            f\"get goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_goals",
+        "kind": 2,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "def get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")\n        ]\n        log_request_info(\n            f\"get goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"\n        )\n        return {\"goals\": query}\n    except Exception as e:",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "post_goals",
+        "kind": 2,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "def post_goals():\n    try:\n        body = request.json\n        query = db.insert_one(\"goals\", {\"text\": body[\"text\"]})\n        log_request_info(\n            f\"post goal feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"\n        )\n        return {\"goal\": {\"id\": str(query.inserted_id)}}\n    except Exception as e:\n        print(e)",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "delete_goal",
+        "kind": 2,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "def delete_goal(id: str):\n    try:\n        print(id)\n        db.delete_one(\"goals\", {\"_id\": ObjectId(id)})\n        log_request_info(\n            f\"delete goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()).replace(microsecond=0), '%Y-%m-%d %H:%M:%S.%f')}\"\n        )\n        return {\"data\": \"Goal Deleted sucessfully\"}\n    except Exception as e:\n        print(e)",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "app = Flask(__name__)\ncors = CORS(app)\napp.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "cors",
+        "kind": 5,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "cors = CORS(app)\napp.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"CORS_HEADERS\"]",
+        "kind": 5,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "app.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])",
+        "detail": "backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.src.main",
+        "description": "backend.src.main",
+        "peekOfCode": "db = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():",
+        "detail": "backend.src.main",
+        "documentation": {}
+    }
+]

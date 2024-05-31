@@ -1,0 +1,604 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "importPath": "data.config.db_config",
+        "description": "data.config.db_config",
+        "isExtraImport": true,
+        "detail": "data.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "importPath": "data.config.db_config",
+        "description": "data.config.db_config",
+        "isExtraImport": true,
+        "detail": "data.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "01-basics.api_application.src.main",
+        "description": "01-basics.api_application.src.main",
+        "peekOfCode": "def hello():\n    return render_template(\"home.html\")\n@app.route(\"/send-name\",methods=['GET', 'POST'])\ndef send_name():\n    name_input = request.form['input-name']\n    return render_template(\"home.html\", name=name_input)",
+        "detail": "01-basics.api_application.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "send_name",
+        "kind": 2,
+        "importPath": "01-basics.api_application.src.main",
+        "description": "01-basics.api_application.src.main",
+        "peekOfCode": "def send_name():\n    name_input = request.form['input-name']\n    return render_template(\"home.html\", name=name_input)",
+        "detail": "01-basics.api_application.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "01-basics.api_application.src.main",
+        "description": "01-basics.api_application.src.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\")\ndef hello():\n    return render_template(\"home.html\")\n@app.route(\"/send-name\",methods=['GET', 'POST'])\ndef send_name():\n    name_input = request.form['input-name']\n    return render_template(\"home.html\", name=name_input)",
+        "detail": "01-basics.api_application.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "02-volumes.generate_files_app.src.main",
+        "description": "02-volumes.generate_files_app.src.main",
+        "peekOfCode": "def hello():\n    return render_template(\"home.html\")\n@app.route(\"/create\", methods=[\"GET\", \"POST\"])\ndef create():\n    if request.method == \"GET\":\n        return redirect(url_for('hello'))\n    title = request.form[\"title\"]\n    text = request.form[\"text\"]\n    temp_path = os.path.join(os.path.abspath(\"./src/temp\"), f\"{title.lower()}.txt\")\n    final_path = os.path.join(os.path.abspath(\"./src/feedback\"), f\"{title.lower()}.txt\")",
+        "detail": "02-volumes.generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "02-volumes.generate_files_app.src.main",
+        "description": "02-volumes.generate_files_app.src.main",
+        "peekOfCode": "def create():\n    if request.method == \"GET\":\n        return redirect(url_for('hello'))\n    title = request.form[\"title\"]\n    text = request.form[\"text\"]\n    temp_path = os.path.join(os.path.abspath(\"./src/temp\"), f\"{title.lower()}.txt\")\n    final_path = os.path.join(os.path.abspath(\"./src/feedback\"), f\"{title.lower()}.txt\")\n    with open(temp_path, \"w\") as temp_file:\n        temp_file.write(text)\n    if os.path.exists(final_path):",
+        "detail": "02-volumes.generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "feedback",
+        "kind": 2,
+        "importPath": "02-volumes.generate_files_app.src.main",
+        "description": "02-volumes.generate_files_app.src.main",
+        "peekOfCode": "def feedback(name:str):\n    if not os.path.exists(f\"./src/feedback/{name}.txt\"):\n        return \"Arquivo não existe\"\n    with open(f\"./src/feedback/{name}.txt\", \"r\") as file:\n        return file.read()",
+        "detail": "02-volumes.generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "02-volumes.generate_files_app.src.main",
+        "description": "02-volumes.generate_files_app.src.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\")\ndef hello():\n    return render_template(\"home.html\")\n@app.route(\"/create\", methods=[\"GET\", \"POST\"])\ndef create():\n    if request.method == \"GET\":\n        return redirect(url_for('hello'))\n    title = request.form[\"title\"]\n    text = request.form[\"text\"]",
+        "detail": "02-volumes.generate_files_app.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "03-networking.run",
+        "description": "03-networking.run",
+        "peekOfCode": "def home():\n    return \"Hello World\"\n@app.route(\"/movies\", methods=[\"GET\"])\ndef get_movies():\n    try:\n        response = requests.get(\"https://swapi.dev/api/films\")\n        return json.loads(response.content.decode())\n    except Exception as e:\n        print(e)\n@app.route(\"/people\", methods=[\"GET\"])",
+        "detail": "03-networking.run",
+        "documentation": {}
+    },
+    {
+        "label": "get_movies",
+        "kind": 2,
+        "importPath": "03-networking.run",
+        "description": "03-networking.run",
+        "peekOfCode": "def get_movies():\n    try:\n        response = requests.get(\"https://swapi.dev/api/films\")\n        return json.loads(response.content.decode())\n    except Exception as e:\n        print(e)\n@app.route(\"/people\", methods=[\"GET\"])\ndef get_people():\n    try:\n        response = requests.get(\"https://swapi.dev/api/people\")",
+        "detail": "03-networking.run",
+        "documentation": {}
+    },
+    {
+        "label": "get_people",
+        "kind": 2,
+        "importPath": "03-networking.run",
+        "description": "03-networking.run",
+        "peekOfCode": "def get_people():\n    try:\n        response = requests.get(\"https://swapi.dev/api/people\")\n        return json.loads(response.content.decode())\n    except Exception as e:\n        print(e)\n@app.route(\"/db\", methods=[\"GET\"])\ndef get_db():\n    try:\n        cnx = mysql.connector.connect(",
+        "detail": "03-networking.run",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "03-networking.run",
+        "description": "03-networking.run",
+        "peekOfCode": "def get_db():\n    try:\n        cnx = mysql.connector.connect(\n            user=\"root\", database=\"movies\", password=\"root\", host=\"mysql_db\"\n        )\n        with cnx.cursor() as cursor:\n            result = cursor.execute(\"SELECT * FROM favorite\")\n            rows = [\n                dict(zip([\"id\", \"gender\", \"movie\", \"url\"], row))\n                for row in cursor.fetchall()",
+        "detail": "03-networking.run",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "03-networking.run",
+        "description": "03-networking.run",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\", methods=[\"GET\"])\ndef home():\n    return \"Hello World\"\n@app.route(\"/movies\", methods=[\"GET\"])\ndef get_movies():\n    try:\n        response = requests.get(\"https://swapi.dev/api/films\")\n        return json.loads(response.content.decode())\n    except Exception as e:",
+        "detail": "03-networking.run",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "kind": 6,
+        "importPath": "04-project.backend.src.data.config.db_config",
+        "description": "04-project.backend.src.data.config.db_config",
+        "peekOfCode": "class DatabaseConfig(object):\n    def __set_config(self):\n        try:\n            client = MongoClient(\n                \"mongodb://mongodb:27017/goals_db\"\n            )\n            print(\"Conectado ao Mongo\")\n            return client[\"goals_db\"]\n        except Exception as e:\n            print(e)",
+        "detail": "04-project.backend.src.data.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseFactory",
+        "kind": 6,
+        "importPath": "04-project.backend.src.data.interface.db_factory",
+        "description": "04-project.backend.src.data.interface.db_factory",
+        "peekOfCode": "class DatabaseFactory(ABC):\n    @abstractmethod\n    def initilize(self):\n        pass\n    @abstractmethod\n    def insert_one(self, collection: str, data: object):\n        pass\n    @abstractmethod\n    def insert_many(self, collection: str, data: list):\n        pass",
+        "detail": "04-project.backend.src.data.interface.db_factory",
+        "documentation": {}
+    },
+    {
+        "label": "log_request_info",
+        "kind": 2,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "def log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")\n        ]\n        log_request_info(",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_goals",
+        "kind": 2,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "def get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")\n        ]\n        log_request_info(\n            f\"get goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"\n        )\n        return {\"goals\": query}\n    except Exception as e:",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "post_goals",
+        "kind": 2,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "def post_goals():\n    try:\n        body = request.json\n        query = db.insert_one(\"goals\", {\"text\": body[\"text\"]})\n        log_request_info(\n            f\"post goal feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"\n        )\n        return {\"goal\": {\"id\": str(query.inserted_id)}}\n    except Exception as e:\n        print(e)",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "delete_goal",
+        "kind": 2,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "def delete_goal(id: str):\n    try:\n        print(id)\n        db.delete_one(\"goals\", {\"_id\": ObjectId(id)})\n        log_request_info(\n            f\"delete goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()).replace(microsecond=0), '%Y-%m-%d %H:%M:%S.%f')}\"\n        )\n        return {\"data\": \"Goal Deleted sucessfully\"}\n    except Exception as e:\n        print(e)",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "app = Flask(__name__)\ncors = CORS(app)\napp.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "cors",
+        "kind": 5,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "cors = CORS(app)\napp.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"CORS_HEADERS\"]",
+        "kind": 5,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "app.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "04-project.backend.src.main",
+        "description": "04-project.backend.src.main",
+        "peekOfCode": "db = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")",
+        "detail": "04-project.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "kind": 6,
+        "importPath": "05-docker-compose.backend.src.data.config.db_config",
+        "description": "05-docker-compose.backend.src.data.config.db_config",
+        "peekOfCode": "class DatabaseConfig(object):\n    def __set_config(self):\n        try:\n            client = MongoClient(\n                \"mongodb://mongodb:27017/goals_db\"\n            )\n            print(\"Conectado ao Mongo\")\n            return client[\"goals_db\"]\n        except Exception as e:\n            print(e)",
+        "detail": "05-docker-compose.backend.src.data.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseFactory",
+        "kind": 6,
+        "importPath": "05-docker-compose.backend.src.data.interface.db_factory",
+        "description": "05-docker-compose.backend.src.data.interface.db_factory",
+        "peekOfCode": "class DatabaseFactory(ABC):\n    @abstractmethod\n    def initilize(self):\n        pass\n    @abstractmethod\n    def insert_one(self, collection: str, data: object):\n        pass\n    @abstractmethod\n    def insert_many(self, collection: str, data: list):\n        pass",
+        "detail": "05-docker-compose.backend.src.data.interface.db_factory",
+        "documentation": {}
+    },
+    {
+        "label": "log_request_info",
+        "kind": 2,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "def log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "def home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")\n        ]\n        log_request_info(\n            f\"get goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_goals",
+        "kind": 2,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "def get_goals():\n    try:\n        query = [\n            {\"text\": goal[\"text\"], \"id\": str(goal[\"_id\"])} for goal in db.find(\"goals\")\n        ]\n        log_request_info(\n            f\"get goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"\n        )\n        return {\"goals\": query}\n    except Exception as e:",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "post_goals",
+        "kind": 2,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "def post_goals():\n    try:\n        body = request.json\n        query = db.insert_one(\"goals\", {\"text\": body[\"text\"]})\n        log_request_info(\n            f\"post goal feito às {datetime.datetime.strptime(str(datetime.datetime.now()), '%Y-%m-%d %H:%M:%S.%f').replace(microsecond=0)}\"\n        )\n        return {\"goal\": {\"id\": str(query.inserted_id)}}\n    except Exception as e:\n        print(e)",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "delete_goal",
+        "kind": 2,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "def delete_goal(id: str):\n    try:\n        print(id)\n        db.delete_one(\"goals\", {\"_id\": ObjectId(id)})\n        log_request_info(\n            f\"delete goals feito às {datetime.datetime.strptime(str(datetime.datetime.now()).replace(microsecond=0), '%Y-%m-%d %H:%M:%S.%f')}\"\n        )\n        return {\"data\": \"Goal Deleted sucessfully\"}\n    except Exception as e:\n        print(e)",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "app = Flask(__name__)\ncors = CORS(app)\napp.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "cors",
+        "kind": 5,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "cors = CORS(app)\napp.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"CORS_HEADERS\"]",
+        "kind": 5,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "app.config[\"CORS_HEADERS\"] = \"Content-Type\"\ndb = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "05-docker-compose.backend.src.main",
+        "description": "05-docker-compose.backend.src.main",
+        "peekOfCode": "db = DatabaseConfig()\ndb.initilize()\ndef log_request_info(msg):\n    with open(os.path.abspath(\"./src/logs/acess.log\"), \"a\") as f_logs:\n        f_logs.write(f\"{msg}\\n\")\n@app.route(\"/\")\ndef home():\n    return \"Welcome\"\n@app.route(\"/goals\", methods=[\"GET\"])\ndef get_goals():",
+        "detail": "05-docker-compose.backend.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "min_number",
+        "kind": 5,
+        "importPath": "interative_app.rng",
+        "description": "interative_app.rng",
+        "peekOfCode": "min_number = int(input(\"Please enter the min number: \"))\nmax_number = int(input(\"Please enter the max number: \"))\nif max_number < min_number:\n    print(\"Invalid input - shutting down...\")\nelse:\n    rnd_number = randint(min_number, max_number)\n    print(rnd_number)",
+        "detail": "interative_app.rng",
+        "documentation": {}
+    },
+    {
+        "label": "max_number",
+        "kind": 5,
+        "importPath": "interative_app.rng",
+        "description": "interative_app.rng",
+        "peekOfCode": "max_number = int(input(\"Please enter the max number: \"))\nif max_number < min_number:\n    print(\"Invalid input - shutting down...\")\nelse:\n    rnd_number = randint(min_number, max_number)\n    print(rnd_number)",
+        "detail": "interative_app.rng",
+        "documentation": {}
+    }
+]

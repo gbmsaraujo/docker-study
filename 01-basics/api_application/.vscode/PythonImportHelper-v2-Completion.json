@@ -1,0 +1,61 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def hello():\n    return render_template(\"home.html\")\n@app.route(\"/send-name\",methods=['GET', 'POST'])\ndef send_name():\n    name_input = request.form['input-name']\n    return render_template(\"home.html\", name=name_input)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "send_name",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def send_name():\n    name_input = request.form['input-name']\n    return render_template(\"home.html\", name=name_input)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\")\ndef hello():\n    return render_template(\"home.html\")\n@app.route(\"/send-name\",methods=['GET', 'POST'])\ndef send_name():\n    name_input = request.form['input-name']\n    return render_template(\"home.html\", name=name_input)",
+        "detail": "src.main",
+        "documentation": {}
+    }
+]
